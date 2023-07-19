@@ -191,3 +191,78 @@ a.active,a:hover{
   z-index: 99;
   color: white;
 }
+@media only screen and (max-width: 768px) {
+  body {
+    background-size: auto;
+  }
+
+  header {
+    padding: 10px 20px;
+  }
+
+  .Brigada {
+    font-size: 2em;
+  }
+
+  .container {
+    width: 70%;
+    height: 50%;
+  }
+
+  .amount-container {
+    margin-bottom: 5px;
+  }
+
+  .amount-text {
+    font-size: 40px;
+  }
+
+  .button-container {
+    top: 100%;
+    left: 10%;
+  }
+
+  .donate-button {
+    padding: 10px 25px;
+    font-size: 16px;
+  }
+
+  .reset-button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  .Instructions {
+    bottom: 22%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .container {
+    width: 90%;
+    height: 40%;
+  }
+
+  .amount-text {
+    font-size: 30px;
+  }
+
+  .button-container {
+    top: 90%;
+    left: 5%;
+  }
+
+  .donate-button {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+
+  .reset-button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  .Instructions {
+    bottom: 20%;
+  }
+}
